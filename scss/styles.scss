@@ -1,0 +1,89 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  position: sticky;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.skill .container {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.download {
+  background: url('../images/download-background.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+// Button Close S
+/* Position the close button */
+/* Position the close button */
+.btn-close {
+  position: absolute;
+  right: 3px !important; /* Adjust the right position as needed */
+  z-index: 9999; /* Ensure it's above other elements */
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #050505;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-close:hover {
+  border-radius: 100%;
+}
+// Button Close Ends
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
+
+h2{
+  font-weight: 700 !important;
+}

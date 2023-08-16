@@ -1,0 +1,17 @@
+{
+  "name": "minimal-portfolio",
+  "version": "1.0.0",
+  "description": "Super Simple workflow for customizing Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "ShahirRahman",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.1",
+    "sass": "^1.62.0"
+  }
+}
